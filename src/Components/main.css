@@ -1,0 +1,31 @@
+
+.main{
+    height: 75vh;
+    background-image: url('.././images/main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7)
+  }
+  .home-containt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:rgb(22, 22, 175);
+  }
+  @media screen and (max-width:991px){
+    .main{
+      height:40vh;
+    }
+    .title{
+    font-size: 18px;
+    }
+  }

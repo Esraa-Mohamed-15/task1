@@ -1,0 +1,15 @@
+.nav{
+margin-right: 250px;
+margin-bottom: 20px !important;
+
+}
+.nav-item a{
+    color:rgb(22, 22, 175);
+    
+}
+@media screen and (max-width:991px){
+    .nav{
+        margin-right: 0px;
+        
+    }
+}

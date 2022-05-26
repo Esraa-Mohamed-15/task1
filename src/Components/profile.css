@@ -1,0 +1,31 @@
+.head{
+    color:rgb(22, 22, 175);
+    
+}
+.team p{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.team{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width:200px;
+}
+.diff{
+    display:inline-block;
+    margin-bottom:320px;
+    padding: 20px 120px 0px 120px;
+}
+@media screen and (max-width:991px){
+.sec{
+    margin:30px 0px;
+}
+.head{
+    font-size:20px;
+}
+
+}
